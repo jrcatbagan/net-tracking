@@ -1,14 +1,15 @@
 /*
  * File: ip-to-geolocation.c
  * Created: 2015, May 28
- *
- *
- * AlphaGroup
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <GeoIPCity.h>
+
+/* change the parameter below to correspond to the actual location of the
+   GeoIP city database */
+#define GEOIP_DATABASE_NAME "./database/GeoLiteCity.dat"
 
 int main(int argc, char **argv)
 {
